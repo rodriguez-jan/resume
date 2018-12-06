@@ -1,0 +1,139 @@
+/*
+Icon for dude in header image made by Freepik on flaticon.com
+
+*/
+
+.navbar{
+    background-color: #8baae8;
+    min-height: 100px;
+    height: auto;
+}
+.nav-icon{
+    margin-left: 60px;
+}
+.navbar-nav{
+    margin-left: 40px;
+}
+p{
+    font-family: 'Saira', sans-serif;
+}
+.wrapper{
+    
+    background-color:#f2f2f2;
+}
+
+.Banner{
+    height: 700px;
+    max-height: 100%;
+    
+}
+
+.dude-icon{
+    display: block;
+    margin: 0px auto;
+    
+    height: 33%;
+    max-height: 240px;
+    max-width:10%;
+    border-radius: 30%;
+    padding-top: 80px;
+    
+}
+.Header-text{
+    font-size: 70px;
+    max-width: 600px;
+    width: 80%;
+    margin: 0px auto;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 15px;
+    
+}
+.Banner-text{
+    font-size: 19px;
+    max-width: 600px;
+    width: 80%;
+    margin: 0px auto;
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 15px;
+    
+}
+.Hobbies{
+    margin: 50px auto;
+    height:auto;
+    min-height: 700px;
+
+}
+
+.Hobbies-Header{
+    font-size: 50px;
+    max-width: 600px;
+    width: 80%;
+    margin: 0px auto;
+    text-align: center;
+    font-weight: bold;
+}
+.Hobbies-row{
+    margin: 20px auto;
+    
+}
+.Hobbies-text{
+    margin: 20px auto;
+    font-size: 18px;
+}
+
+.Hobby-image{
+    width: 100%;
+    border-radius:5%;
+}
+
+.Quote{
+    height: 700px;
+    padding-top: 225px;
+    text-align: center;
+    font-size: 55px;
+    background-color: #8baae8;
+}
+.Values{
+    height:auto;
+    min-height:700px;
+    max-width: 990px;
+    width: 80%;
+    margin: 50px auto;
+    
+}
+
+
+.Values-content{
+    height:auto;
+    margin: 50px auto;
+    column-gap: 15px;
+    
+}
+
+.Values-img{
+    width: 100%;
+    border-radius:5%;
+    max-height: 200px;
+}
+.Values-Header{
+    font-size: 50px;
+    max-width: 600px;
+    width: 80%;
+    margin: 0px auto;
+    padding-top: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+.Value-category{
+    font-family: 'Saira', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+.Value-text{
+    font-size: 18px;
+}
+
+
+

@@ -5,7 +5,7 @@ methodOverride      = require("method-override"),
 mongoose            = require("mongoose"),
 app                 = express();
 
-mongoose.connect("mongodb://jan2:dota20@ds241723.mlab.com:41723/resume_blog");
+mongoose.connect("mongodb://jan2:dota20@ds241723.mlab.com:41723/resume_blog", { useNewUrlParser: true });
 app.set("view engine", "ejs");
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({extended:true}));
@@ -13,7 +13,7 @@ app.use(expressSanitizer());
 app.use(methodOverride("_method"));
 
 app.get("/",function(req,res){
-    res.render("home");
+    res.render("index");
 })
 
 
