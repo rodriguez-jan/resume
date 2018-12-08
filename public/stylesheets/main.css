@@ -3,6 +3,9 @@ Icon for dude in header image made by Freepik on flaticon.com
 
 */
 
+*{
+    font-family: 'Saira', sans-serif;
+}
 .navbar{
     background-color: #8baae8;
     min-height: 100px;
@@ -135,5 +138,28 @@ p{
     font-size: 18px;
 }
 
+.header{
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 40px;
+}
 
+.blog-header{
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 40px;
+    
+}
+
+.show-container{
+    margin-bottom: 50px;
+}
+.show-description{
+    font-size: 25px;
+    font-family: monospace;
+}
+
+.nav-item{
+    font-size: 20px;
+}
 

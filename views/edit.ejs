@@ -15,6 +15,9 @@
         </div>
         <input class="ui violet basic big button" type="submit">
     </form>
+        <form id="delete" action="/blogs/<%= blog._id%>?_method=DELETE" method="POST">
+                 <button class="ui red basic button">Delete</button>
+        </form>
 </div>
 
 
