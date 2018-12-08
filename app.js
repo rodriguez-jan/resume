@@ -102,6 +102,11 @@ app.delete("/blogs/:id", function(req,res){
     })
 })
 
+//CONTACT PAGE ROUTE
+app.get("/contact" , function(req, res) {
+    res.render("contact");
+})
+
 
 
 app.listen(process.env.PORT,process.env.IP, function(){

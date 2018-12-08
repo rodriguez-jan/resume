@@ -3,7 +3,7 @@ Icon for dude in header image made by Freepik on flaticon.com
 
 */
 
-*{
+a{
     font-family: 'Saira', sans-serif;
 }
 .navbar{
@@ -163,3 +163,31 @@ p{
     font-size: 20px;
 }
 
+.contact-info-container{
+    width: 50%;
+    margin: 100px auto;
+}
+
+.contact-info-template{
+    text-align: left;
+    font-family: 'Saira', sans-serif;
+    margin: 20px auto;
+}
+
+.fa {
+
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.contact-info{
+    font-size: 30px;
+}
+
+.link{
+    color: inherit;
+    text-decoration:none;
+}
