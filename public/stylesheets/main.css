@@ -148,13 +148,16 @@ p{
     font-size: 40px;
     
 }
+.index-container{
+    margin-bottom: 100px;
+}
 
 .show-container{
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 .show-description{
-    font-size: 25px;
-    font-family: monospace;
+    font-size: 20px;
+    font-family: 'Saira', sans-serif;
 }
 
 .nav-item{
