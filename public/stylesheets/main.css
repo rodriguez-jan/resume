@@ -10,7 +10,10 @@ Icon for dude in header image made by Freepik on flaticon.com
     height: auto;
 }
 .nav-icon{
+    
     margin-left: 60px;
+    width: 3%;
+    min-width: 40px;
 }
 .navbar-nav{
     margin-left: 40px;
