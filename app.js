@@ -17,7 +17,7 @@ var blogSchema= new mongoose.Schema({
     title:String,
     image:String,
     body:String,
-    created: {type: Date, default: Date.now}    //Read this as having a type of Date that is already initialized with the default value of the time that it was created
+    created: {type: Date, default: Date.now}   
 })
 var Blog=mongoose.model("Blog",blogSchema)
 
